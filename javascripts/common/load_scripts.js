@@ -1,6 +1,7 @@
+var versionNumer
 async function loadDynamicScript() {
   var result = await fetchVersionNumber();
-  var versionNumer = result['hcVersion']
+  versionNumer = result['hcVersion']
   var url = `https://cdn.jsdelivr.net/gh/techsoft3d/hoops-web-viewer@20${versionNumer}/hoops_web_viewer.js`
 
   return new Promise((resolve, reject) => {
