@@ -1,4 +1,4 @@
-# Hoops Web Platform - 2D Floor Plan Demo
+# Hoops Web Platform - Configurator Demo
 
 See this demo running live on [GitHub Pages](https://techsoft3d.github.io/Configurator/).
 
